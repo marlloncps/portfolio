@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../src/app.css';
+import PersonalInfo from './components/PersonalInfo';
 
 function App() {
   return (
-    <h1>Oii</h1>
+    <>
+      <PersonalInfo />
+    </>
   );
 }
 
